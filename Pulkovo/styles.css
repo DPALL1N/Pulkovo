@@ -1,0 +1,426 @@
+@font-face {
+    font-family: 'Nova Regular';
+    src: url("fonts/proximanova_regular.ttf");
+}
+@font-face {
+    font-family: 'Nova Bold';
+    src: url("fonts/proximanova_bold.otf");
+}
+
+body {
+    margin: 0;
+    background-color: #f2f7fc;
+}
+
+.page{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: white;
+    width: 100vw;
+    height: 146px;
+    left: 0px;
+    top: 0px;
+}
+
+.back {
+    width: 100vw;
+    z-index: 0;
+}
+
+.container {
+    position: relative;
+    margin-left: 433px;
+    top: 57px;
+}
+
+.inputs {
+    box-sizing: border-box;
+    z-index: 1000;
+    margin-top: -200px;
+    margin-left: 261px;
+    position: absolute;
+    width: 480px;
+    border-radius: 4px;
+    outline: 1px solid grey;
+}
+
+.inputs2 {
+    box-sizing: border-box;
+    z-index: 1000;
+    margin-top: -200px;
+    margin-left: 861px;
+    position: absolute;
+    width: 480px;
+    border-radius: 4px;
+    outline: 1px solid grey;
+}
+.date {
+    margin-left: 40px;
+    font-family: 'Nova Regular';
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    color: grey;
+    outline: none;
+    border: none;
+}
+.find_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 10px;
+    font-family: 'Nova Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:white;
+    position: absolute;
+    width: 359px;
+    height: 60px;
+    left: 1401px;
+    top: 798px;
+    border:none;
+    /* #579D45 */
+    background-size:80%;
+    background: #579D45;
+    border-radius: 4px;
+}
+.find_btn:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 10px;
+    font-family: 'Nova Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color:white;
+    position: absolute;
+    width: 359px;
+    height: 60px;
+    left: 1401px;
+    top: 798px;
+    border:none;
+    /* #579D45 */
+    background-size:80%;
+    background-color:grey;
+    border-radius: 4px;
+}
+.date2 {
+    margin-left: 40px;
+    font-family: 'Nova Regular';
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    color: grey;
+    outline: none;
+    border: none;
+}
+.in {
+    color: grey;
+    font-family: "Nova Regular";
+    font-size: 16px;
+    box-sizing: border-box;
+    z-index: 1000;
+    margin-top: -230px;
+    margin-left: 261px;
+    position: absolute;
+    width: 480px;
+}
+.in2{
+    color:grey;
+    font-family: "Nova Regular";
+    font-size:16px;
+    box-sizing: border-box;
+    z-index: 1000;
+    margin-top: -230px;
+    margin-left:861px;
+    position: absolute;
+    width: 480px;
+
+}
+.between {
+    position: absolute;
+    background-color: grey;
+    opacity:0.5;
+    width:1px;
+    height:44px;
+    margin-left:230px;
+    margin-top: -52px;
+    z-index:9999;
+}
+.between2 {
+    position: absolute;
+    background-color: grey;
+    opacity:0.5;
+    width:1px;
+    height:44px;
+    margin-left:230px;
+    margin-top: -52px;
+    z-index:9999;
+}
+.calendar{
+    position:absolute;
+    margin-left:20px;
+    box-sizing: border-box;
+    margin-top:20px;
+}
+.calendar2{
+    position:absolute;
+    margin-left:20px;
+    box-sizing: border-box;
+    margin-top:20px;
+}
+.clock{
+    position:absolute;
+    margin-top:20px;
+}
+.clock2{
+    position:absolute;
+    margin-top:20px;
+}
+.time {
+    margin-left: 20px;
+    font-family: 'Nova Regular';
+    font-size: 16px;
+    width: 150px;
+    height: 60px;
+    color: grey;
+    outline: none;
+    border: none;
+}
+.time2 {
+    margin-left: 20px;
+    font-family: 'Nova Regular';
+    font-size: 16px;
+    width: 150px;
+    height: 60px;
+    color: grey;
+    outline: none;
+    border: none;
+}
+.navigation {
+    color: grey;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.navigation:hover {
+    text-decoration: underline;
+    color:black;
+    cursor:pointer;
+}
+
+.whatsapp {
+    posititon: absolute;
+    margin-left: 1197px;
+    margin-top: 32px;
+}
+
+
+.numbers {
+    position: absolute;
+    width: 1000px;
+    margin-left: -5px;
+    margin-top: 28px;
+}
+
+.number {
+    margin-left: 23px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.cont{
+    position: absolute;
+    width: 876px;
+    height: 74px;
+    left: 522px;
+
+    /* Desktop/ h1 */
+
+    font-family: 'Nova Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 74px;
+    /* identical to box height, or 119% */
+
+    text-align: center;
+
+    /* #27282B */
+
+    color: #191919;
+
+}
+
+.transfer{
+    /* Бесплатный трансфер */
+
+
+position: relative;
+width: 346px;
+height: 36px;
+left: 425px;
+top: 224px;
+font-family: 'Nova Bold';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 36px;
+color: #579D45;
+}
+
+.transfer:hover{
+    text-decoration: underline;
+    color: #868FA4;
+    
+}
+.transfer:active{
+    text-decoration: underline;
+    color: #579D45;
+    
+}
+
+.oformlenie{
+   /* Комфортное оформление */
+
+
+position: relative;
+width: 402px;
+height: 36px;
+left:455px;
+top: 224px;
+font-family: 'Nova Bold';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 36px;
+color: #868FA4; 
+text-decoration: none;
+}
+
+.oformlenie:hover{
+    text-decoration: underline;
+    color: #868FA4;
+    
+}
+.oformlenie:active{
+    text-decoration: underline;
+    color: #579D45;
+    
+}
+
+.dop{
+    position: relative;
+width: 244px;
+height: 36px;
+left: 480px;
+top: 224px;
+
+/* Desktop/32 extra */
+
+font-family: 'Nova Bold';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 36px;
+text-decoration: none;
+/* identical to box height, or 112% */
+
+
+/* #4D5465 */
+
+color: #868FA4;
+
+}
+
+.dop:hover{
+    text-decoration: underline;
+    color: #868FA4;
+    
+}
+.dop:active{
+    text-decoration: underline;
+    color: #579D45;
+    
+}
+
+.car{
+    position: relative;
+width: 1602px;
+height: 499px;
+left: -38px;
+top: 337px;
+}
+
+.transfer_text{
+
+position: relative;
+width: 533px;
+height: 264px;
+left: 1127px;
+top: -108px;
+
+}
+
+.cont2{
+   /* О парковке */
+
+
+position: relative;
+width: 876px;
+height: 72px;
+left: 522px;
+top: 100px;
+
+font-family: 'Nova Bold';
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 72px;
+/* identical to box height, or 116% */
+
+text-align: center;
+
+/* #27282B */
+
+color: #191919;
+}
+
+.parking{
+    background-color: w;
+}
+
+.img500{
+    /* Rectangle 20 */
+
+
+position: relative;
+width: 440px;
+height: 266px;
+left: 0px;
+top: 260px;
+
+/* #DEE4EB */
+
+background: rgb(239, 235, 235);
+border-radius: 6px;
+
+}
